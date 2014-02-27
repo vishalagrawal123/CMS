@@ -1,0 +1,49 @@
+#header
+{
+	height: 30px;
+    background-repeat: repeat-x;
+    background-image: url(Images/MarketingHeader.png);
+	width:auto; 
+	max-width:962px;
+	margin: 0 auto;
+}
+#footer
+{
+	float:bottom;
+	height: 20px;
+    background-repeat: repeat-x;
+    background-image: url(Images/MarketingHeader.png);
+	width:auto; 
+	max-width:962px;
+	margin: 0 auto;
+}
+#workarea
+{
+	width: 962px;
+	height:880px;
+	margin: auto;
+	box-shadow: 0 3px 3px #888888;
+	background-color:#FFFFFF;
+}
+#logo img {
+   display: block;
+   width: 20%;
+}
+#Modules
+{
+	width: 962px;
+	height:400px;
+	
+}
+body
+{
+	background-color:#ececec;
+}
+#altFooter
+{
+	height:70px;
+	background-color:#006BB2;
+	width:auto; 
+	max-width:962px;
+	margin: 0 auto;
+}
