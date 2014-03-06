@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Parent.master.cs" Inherits="Parent" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<link href="Styles/CSS.css" rel="stylesheet" type="text/css" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div>
+        <asp:ContentPlaceHolder id="cHeading" runat="server">
+        <div id="header">
+        
+        </div>
+        <div class="logo" align="right" >
+
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Img/logo.png" />
+              
+		</div>
+         
+     
+			
+        </asp:ContentPlaceHolder>
+    </div>
+  
+    <div style="width:0%; float:left">
+        <asp:ContentPlaceHolder id="cleft" runat="server">
+        
+            
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div  style="width:100%;float:left">
+        <asp:ContentPlaceHolder id="cbody" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder id="cfooter" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
